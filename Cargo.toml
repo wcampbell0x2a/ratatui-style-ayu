@@ -1,5 +1,10 @@
 [package]
 name = "ratatui-style-ayu"
+authors = ["wcampbell <wcampbell1995@gmail.com>"]
+repository = "https://github.com/wcampbell0x2a/ratatui-style-ayu"
+keywords = ["ayu", "ratatui", "tui", "theme"]
+description = "Ayu color theme for Ratatui applications"
+license = "MIT OR Apache-2.0"
 version = "0.1.0"
 edition = "2024"
 
