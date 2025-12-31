@@ -1,34 +1,36 @@
-//! Official Ayu Dark color palette from [ayu-theme/ayu-colors](https://github.com/ayu-theme/ayu-colors)
+//! Ayu Dark color palette from [Helix editor](https://github.com/helix-editor/helix/blob/496f0e1b41e6735873c1376ac10a6a722767f328/runtime/themes/ayu_dark.toml)
 
 use ratatui_core::style::Color;
 
 /// Editor background
-pub const BACKGROUND: Color = Color::Rgb(0x10, 0x14, 0x1C);
+pub const BACKGROUND: Color = Color::Rgb(0x0F, 0x14, 0x19);
 
 /// Main editor text color
 pub const FOREGROUND: Color = Color::Rgb(0xBF, 0xBD, 0xB6);
 
-pub const SELECTION: Color = Color::Rgb(0x27, 0x37, 0x47);
+pub const BLACK: Color = Color::Rgb(0x13, 0x17, 0x21);
 
-pub const COMMENT: Color = Color::Rgb(0x62, 0x6A, 0x73);
+pub const SELECTION: Color = Color::Rgb(0x2D, 0x36, 0x40);
+
+pub const COMMENT: Color = Color::Rgb(0x5C, 0x67, 0x73);
 
 /// Keywords, storage types, template expressions
 pub const ORANGE: Color = Color::Rgb(0xFF, 0x8F, 0x40);
 
 /// Function names, function calls, tag attributes
-pub const YELLOW: Color = Color::Rgb(0xFF, 0xB4, 0x54);
+pub const YELLOW: Color = Color::Rgb(0xE6, 0xB4, 0x50);
 
 /// String literals, imports/packages, markup headings
 pub const GREEN: Color = Color::Rgb(0xAA, 0xD9, 0x4C);
 
 /// Regular expressions, escape characters, blockquotes
-pub const CYAN: Color = Color::Rgb(0x95, 0xE6, 0xCB);
+pub const CYAN: Color = Color::Rgb(0x73, 0xB8, 0xFF);
 
 /// HTML/XML tags, language variables, CSS properties
-pub const BLUE: Color = Color::Rgb(0x39, 0xBA, 0xE6);
+pub const BLUE: Color = Color::Rgb(0x59, 0xC2, 0xFF);
 
 /// Named constants, function parameters
-pub const PURPLE: Color = Color::Rgb(0xD2, 0xA6, 0xFF);
+pub const MAGENTA: Color = Color::Rgb(0xD2, 0xA6, 0xFF);
 
 /// Member variables, library functions, markup italic/bold
 pub const RED: Color = Color::Rgb(0xF0, 0x71, 0x78);
