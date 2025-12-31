@@ -12,7 +12,7 @@ Ayu color theme for Ratatui applications.
 Add the following to your `Cargo.toml` file:
 ```toml
 [dependencies]
-ratatui-style-ayu = "0.3.0"
+ratatui-style-ayu = "0.4.0"
 ```
 
 In your rust code:

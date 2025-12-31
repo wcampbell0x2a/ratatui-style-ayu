@@ -5,7 +5,7 @@ repository = "https://github.com/wcampbell0x2a/ratatui-style-ayu"
 keywords = ["ayu", "ratatui", "tui", "theme"]
 description = "Ayu color theme for Ratatui applications"
 license = "MIT OR Apache-2.0"
-version = "0.3.0"
+version = "0.4.0"
 edition = "2024"
 
 [dependencies]
