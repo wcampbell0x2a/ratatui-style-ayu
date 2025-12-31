@@ -12,7 +12,7 @@ Ayu color theme for Ratatui applications.
 Add the following to your `Cargo.toml` file:
 ```toml
 [dependencies]
-ratatui-style-ayu = "0.2.0"
+ratatui-style-ayu = "0.3.0"
 ```
 
 In your rust code:
@@ -25,6 +25,9 @@ let fg = ayu_dark::FOREGROUND;
 ```
 
 ## Available Themes
+See [docs.rs](https://docs.rs/ratatui-style-ayu) for comparisons of the themes.
 
 - `ayu_dark` - Dark variant of the Ayu theme
+- `ayu_dark_helix` - Ayu Dark variant from Helix editor
+- `ayu_dark_heretek` - Custom Ayu Dark variant from heretek
 - `ayu_light` - Light variant of the Ayu theme
