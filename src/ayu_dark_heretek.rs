@@ -27,8 +27,7 @@ pub const YELLOW: Color = Color::Rgb(0xE6, 0xB4, 0x50);
 pub const GREEN: Color = Color::Rgb(0xAA, 0xD9, 0x4C);
 
 /// Regular expressions, escape characters, blockquotes
-/// `BLUE (used as cyan)`
-pub const CYAN: Color = Color::Rgb(0x59, 0xC2, 0xFF);
+pub const CYAN: Color = Color::Rgb(0x95, 0xE6, 0xCB);
 
 /// HTML/XML tags, language variables, CSS properties
 pub const BLUE: Color = Color::Rgb(0x59, 0xC2, 0xFF);
