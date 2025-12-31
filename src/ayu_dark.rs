@@ -1,0 +1,13 @@
+use ratatui_core::style::Color;
+
+pub const BACKGROUND: Color = Color::Rgb(0x0A, 0x0E, 0x14);
+pub const FOREGROUND: Color = Color::Rgb(0xB3, 0xB1, 0xAD);
+pub const SELECTION: Color = Color::Rgb(0x27, 0x37, 0x47);
+pub const COMMENT: Color = Color::Rgb(0x62, 0x6A, 0x73);
+pub const ORANGE: Color = Color::Rgb(0xFF, 0x8F, 0x40);
+pub const YELLOW: Color = Color::Rgb(0xFF, 0xB4, 0x54);
+pub const GREEN: Color = Color::Rgb(0xC2, 0xD9, 0x4C);
+pub const CYAN: Color = Color::Rgb(0x95, 0xE6, 0xCB);
+pub const BLUE: Color = Color::Rgb(0x39, 0xBA, 0xE6);
+pub const PURPLE: Color = Color::Rgb(0xFF, 0xEE, 0x99);
+pub const RED: Color = Color::Rgb(0xFF, 0x33, 0x33);
